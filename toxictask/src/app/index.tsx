@@ -1,6 +1,5 @@
-// Importamos el componente que acabas de crear
-import SlothBotDashboard from "@/components/SlothBotDashboard";
+import AgendaScreen from "../components/AgendaScreen";
 
-export default function IndexScreen() {
-  return <SlothBotDashboard />;
+export default function Index() {
+  return <AgendaScreen />;
 }
